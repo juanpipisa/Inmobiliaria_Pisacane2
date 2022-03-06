@@ -1,0 +1,266 @@
+/***************BODY************/
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin: 0;    
+}
+
+
+
+
+/***************HEADER************/
+header{ 
+    margin: auto;
+    width: 100%;
+    background-color:  rgb(165, 165, 165);
+    color: black;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+.navigation ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 8px;
+
+}
+.navigation ul li a:hover{
+    background: #CCC;
+}
+
+/***************MAIN************/
+p{
+        margin-bottom: 1.6rem;
+}
+main{
+           /* width: 85%;
+            max-width: 850px;
+            margin: 0 auto;
+            padding-top: 200px;
+            */
+            padding-top: 200px;
+}
+h2{
+    font-size: 2rem;
+    line-height: 1.3rem;
+    
+}
+
+#grilla{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 500px 550px;
+    grid-template-areas:"a1 a2 a3 a4"
+                        "a5 a6 a7 a8" ;
+    background-color: rgb(238, 238, 238);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: 10%;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax (15rem, 1fr));
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-content: center;
+height: 80%;
+width: 80%;
+background-color: aqua;
+
+}
+
+.hijo1{
+grid-area: a1;
+}
+.hijo2{
+grid-area: a2;
+}
+.hijo3{
+grid-area: a3;
+}
+.hijo4{
+grid-area: a4;
+}
+.hijo5{
+grid-area: a5;
+}
+
+.noticias{
+    justify-items: center;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/***************FOOTER************/
+
+#grilla_footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 150px 100px;
+    grid-template-areas:"a1 a2 a3 a4";
+    background-color: rgb(238, 238, 238);
+    max-width: 100%;
+}
+
+.ft{
+display: flex;
+flex-direction: column;
+align-content: center;
+}
+
+.ft1{
+grid-area: a1;
+}
+.ft2{
+grid-area: a2;
+}
+.ft3{
+grid-area: a3;
+}
+.ft4{
+grid-area: a4;
+}
+
+@media only screen and (max-width: 480px) /** max width 767**/
+{
+
+            .menu-icon{ 
+            display: block;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+        }
+            .navigation {
+                width: 100%;
+                margin: 1rem;
+            }
+
+            .navigation ul{
+                display: none;
+            }
+
+            
+            .navigation ul.show{
+                display: block;
+            }
+
+            .navigation ul li{
+                display: block;
+            }
+            .navigation ul li a {
+                display: block;
+                padding: 0.5rem;
+                transition: all 0.4s linear;
+                border-radius: 8px;
+            
+            }
+            .navigation ul li a:hover{
+                background: #CCC;
+            }
+            
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            #grilla {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas:
+                "a1 a2"
+                "a3 a4"
+                "a5 a6"
+                "a7 a8";
+                max-width: 100%;
+                margin: 0 20px;
+                column-gap: 10px;
+            }
+            .card {
+                width: 100%;
+            }
+            .card img {
+                width: 100%;
+            }
+            .noticias img {
+                width: 100%;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /**
+        .card{
+            display: auto   ;
+        }
+
+        .card div.show{
+            width: fit-content;
+        }
+
+        #grilla_footer{
+            display: block;
+        }
+
+        .ft{
+            display: block;
+            flex-direction: column;
+            align-content: center;
+        }
+
+        .noticas {
+            width: fit-content;
+
+        }
+
+        .ft1{
+            width: fit-content;
+       
+        }
+        **/
+
+}

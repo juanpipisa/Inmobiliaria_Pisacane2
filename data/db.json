@@ -1,0 +1,92 @@
+{
+    "propiedades": [
+        {
+            "mainImageUrl": "",
+            "type": "Edificio Comercial",
+            "neghbourhood": "Recoleta",
+            "surface": 550,
+            "condition": "Muy bueno",
+            "age": 70,
+            "bedrooms": 4,
+            "bathrooms": 5,
+            "runningWater": true
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        },
+        {
+            "mainImageUrl": null,
+            "type": null,
+            "neghbourhood": null,
+            "surface": null,
+            "condition": null,
+            "age": null,
+            "bedrooms": null,
+            "bathrooms": null,
+            "runningWater": null
+        }
+    ]
+}
