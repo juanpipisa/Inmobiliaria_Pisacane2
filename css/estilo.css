@@ -18,3 +18,18 @@
     background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/*@media only screen and (max-width: 480px) {*/
+/*    .container {*/
+/*        display: grid;*/
+/*        grid-template-columns: 50% 50%;*/
+        /*grid-template-rows: repeat(4, 1fr);*/
+        /*grid-template-areas:*/
+        /*        "a1 a2"*/
+        /*        "a3 a4"*/
+        /*        "a5 a6"*/
+        /*        "a7 a8";*/
+        /*max-width: 100%;*/
+        /*margin: 0 20px;*/
+        /*column-gap: 10px;*/
+    /*}*/
