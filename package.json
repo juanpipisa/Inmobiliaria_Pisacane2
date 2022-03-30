@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/juanpipisa/Inmobiliaria_Pisacane2#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.1.3"
   },
   "devDependencies": {
