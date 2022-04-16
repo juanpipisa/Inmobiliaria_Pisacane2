@@ -1,14 +1,27 @@
+//import
+@import "variable.scss";
+
+//mixins
+@mixin text-type {
+  text-transform: uppercase;
+  text-align: left;
+  Letter-spacing: 3px;
+  font-size: 14px;
+  Line-height: 30px;
+  color: $color-blueGradient;
+}
+
 
 /*NAV-BAR*/
 
 .navbar-gradient {
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: $color-GreyGradient;
+  background: -webkit-linear-gradient(to left, $color-blueGradient, $color-GreyGradient);
+  background: linear-gradient(to left, $color-blueGradient, $color-GreyGradient);
 }
 
 .nav-link-header {
-  color: #FFFFFF;
+  color: $color-white;
 }
 
 
@@ -19,82 +32,81 @@
 
 /*FORMULARIO*/
 
+
 .formulario {
-  max-width: 800px;
-  margin: 50px auto;
-  position: relative;
-  box-shadow: 0 10px 30px Opx rgba(0,0,0,0.1);
-}
-.formulario .title{
-  text-transform: uppercase;
-  text-align: center;
-  Letter-spacing: 3px;
-  font-size: 3em;
-  Line-height: 48px;
-  color: #2c3e50;
-  background: linear-gradient(to left, #2c3e50, #bdc3c7) ;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.formulario .subtitle{
-  text-transform: uppercase;
-  text-align: left;
-  Letter-spacing: 3px;
-  font-size: 14px;
-  Line-height: 30px;
-  color: #2c3e50;
-  background: #2c3e50;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.formulario .subtitle1{
-  text-transform: uppercase;
-  text-align: left;
-  Letter-spacing: 3px;
-  font-size: 14px;
-  Line-height: 30px;
-  color: #2c3e50;
-  background: #2c3e50;
-}
-.formulario .subs2{
-  text-transform: uppercase;
-  text-align: left;
-  Letter-spacing: 3px;
-  font-size: 14px;
-  Line-height: 30px;
-  color: #2c3e50;
-}
+        max-width: 800px;
+        margin: 50px auto;
+        position: relative;
+        box-shadow: 0 10px 30px Opx $color-Shadow;
+      
+      .title {
+        text-transform: uppercase;
+        text-align: center;
+        Letter-spacing: 3px;
+        font-size: 3em;
+        Line-height: 48px;
+        color: $color-blueGradient;
+        background: linear-gradient(to left, $color-blueGradient, $color-GreyGradient) ;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
-.contact-form .input-text{
-  display: block;
-  width: 100%;
-  height: 36px;
-  border-width: 0 0 2px 0;
-  border-color: #2c3e50;
-  font-size: 18px;
-  Line-height: 26px;
-  font-weight : 400;
+      .subtitle1 {
+        @include text-type;
+        background: $color-blueGradient;
+      }
+
+      .subtitle{
+        @extend .subtitle1;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      .subs2{
+        @include text-type;
+        color: $color-blueGradient;
+      }     
+      
 }
 
 
-.contact-form .btn{
-  display: inline-block;
-  background-image : linear-gradient( to left, #2c3e50, #bdc3c7);
-  color: #fff;
-  text-transform: uppercase;
-  Letter-spacing : 2px;
-  font-size : 16px;
-  padding : 8px 16px;
-  border : none;
-  width: 200px;
-  Cursor: pointer;
-}
+//contact form
+
+
+.contact-form {
+
+      .input-text{
+        display: block;
+        width: 100%;
+        height: 36px;
+        border-width: 0 0 2px 0;
+        border-color: $color-blueGradient;
+        font-size: 18px;
+        Line-height: 26px;
+        font-weight : 400;
+      } 
+
+      .btn{
+        display: inline-block;
+        background-image : linear-gradient( to left, $color-blueGradient, $color-GreyGradient);
+        color: $color-white;
+        text-transform: uppercase;
+        Letter-spacing : 2px;
+        font-size : 16px;
+        padding : 8px 16px;
+        border : none;
+        width: 200px;
+        Cursor: pointer;
+      }
+
+}   
+
 
 /*FOOTER*/
 
 .page-footer {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: $color-black;
+  background: -webkit-linear-gradient(to top, $color-greyDark, $color-black);
+  background: linear-gradient(to top, $color-greyDark, $color-black);
 }

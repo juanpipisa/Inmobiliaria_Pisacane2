@@ -2,9 +2,9 @@
 /*NAV-BAR*/
 
 .navbar-gradient {
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);
+    background: linear-gradient(to left, #2c3e50, #bdc3c7);
 }
 
 .nav-link-header {
@@ -24,7 +24,7 @@
     margin: 50px auto;
     position: relative;
     box-shadow: 0 10px 30px Opx rgba(0,0,0,0.1);
-   }
+}
 .formulario .title{
     text-transform: uppercase;
     text-align: center;
@@ -64,37 +64,37 @@
     font-size: 14px;
     Line-height: 30px;
     color: #2c3e50;
-   }
+}
 
 .contact-form .input-text{
-display: block;
-width: 100%;
-height: 36px;
-border-width: 0 0 2px 0;
-border-color: #2c3e50;
-font-size: 18px;
-Line-height: 26px;
-font-weight : 400;
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #2c3e50;
+    font-size: 18px;
+    Line-height: 26px;
+    font-weight : 400;
 }
 
 
 .contact-form .btn{
-display: inline-block;
-background-image : linear-gradient( to left, #2c3e50, #bdc3c7);
-color: #fff;
-text-transform: uppercase;
-Letter-spacing : 2px;
-font-size : 16px;
-padding : 8px 16px;
-border : none;
-width: 200px;
-Cursor: pointer;
+    display: inline-block;
+    background-image : linear-gradient( to left, #2c3e50, #bdc3c7);
+    color: #fff;
+    text-transform: uppercase;
+    Letter-spacing : 2px;
+    font-size : 16px;
+    padding : 8px 16px;
+    border : none;
+    width: 200px;
+    Cursor: pointer;
 }
 
 /*FOOTER*/
 
 .page-footer {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #434343, #000000);
+    background: linear-gradient(to top, #434343, #000000);
 }
