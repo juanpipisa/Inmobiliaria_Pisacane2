@@ -91,6 +91,10 @@
     Cursor: pointer;
 }
 
+.margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /*FOOTER*/
 
 .page-footer {
